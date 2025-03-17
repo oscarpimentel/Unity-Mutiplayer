@@ -1,0 +1,858 @@
+fileFormatVersion: 2
+guid: c6901a2302339c849ac9d75083c573fd
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7811930919633921657
+    second: explo_rombo_0
+  - first:
+      213: -7041879043694178847
+    second: explo_rombo_1
+  - first:
+      213: 5463037043294960934
+    second: explo_rombo_2
+  - first:
+      213: -6277680340927061379
+    second: explo_rombo_3
+  - first:
+      213: -5535526901698671246
+    second: explo_rombo_4
+  - first:
+      213: 169858102160616928
+    second: explo_rombo_5
+  - first:
+      213: -5204061315566425071
+    second: explo_rombo_6
+  - first:
+      213: -5543433219372687798
+    second: explo_rombo_7
+  - first:
+      213: -5382618282272545531
+    second: explo_rombo_8
+  - first:
+      213: -4109155942321395509
+    second: explo_rombo_9
+  - first:
+      213: 4587871944219141
+    second: explo_rombo_10
+  - first:
+      213: -5673834681303186250
+    second: explo_rombo_11
+  - first:
+      213: -8863414553835241476
+    second: explo_rombo_12
+  - first:
+      213: 7441968783212946833
+    second: explo_rombo_13
+  - first:
+      213: 6566289848624897307
+    second: explo_rombo_14
+  - first:
+      213: 3749018770918642075
+    second: explo_rombo_15
+  - first:
+      213: -4955491261396269831
+    second: explo_rombo_16
+  - first:
+      213: -1426363779409490584
+    second: explo_rombo_17
+  - first:
+      213: -330253211855240924
+    second: explo_rombo_18
+  - first:
+      213: 2951048102934295834
+    second: explo_rombo_19
+  - first:
+      213: 5185241877612127872
+    second: explo_rombo_20
+  - first:
+      213: -2469308089514158066
+    second: explo_rombo_21
+  - first:
+      213: 8661183974469555723
+    second: explo_rombo_22
+  - first:
+      213: 3859669428706721470
+    second: explo_rombo_23
+  - first:
+      213: -2464297186202178834
+    second: explo_rombo_24
+  - first:
+      213: 2380260144367774498
+    second: explo_rombo_25
+  - first:
+      213: -4606182073554904144
+    second: explo_rombo_26
+  - first:
+      213: 4058713733918690120
+    second: explo_rombo_27
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: explo_rombo_0
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 15
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 976aba238cd896c60800000000000000
+      internalID: 7811930919633921657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: explo_rombo_1
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 15
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ed4759b158364e90800000000000000
+      internalID: -7041879043694178847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: explo_rombo_2
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 6
+        width: 43
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62d75681f3b90db40800000000000000
+      internalID: 5463037043294960934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: explo_rombo_3
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 6
+        width: 43
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d72e6919df231e8a0800000000000000
+      internalID: -6277680340927061379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: explo_rombo_4
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 15
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27dc1a38c9bdd23b0800000000000000
+      internalID: -5535526901698671246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: explo_rombo_5
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 0
+        width: 39
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ed61814b057b5200800000000000000
+      internalID: 169858102160616928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: explo_rombo_6
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 19
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11caf484ec577c7b0800000000000000
+      internalID: -5204061315566425071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: explo_rombo_7
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 41
+        width: 20
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4ed03b7bd4c113b0800000000000000
+      internalID: -5543433219372687798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: explo_rombo_8
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 0
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5052f9bc0391d45b0800000000000000
+      internalID: -5382618282272545531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: explo_rombo_9
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 16
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc86f33117859f6c0800000000000000
+      internalID: -4109155942321395509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: explo_rombo_10
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 20
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50a928d25ac401000800000000000000
+      internalID: 4587871944219141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: explo_rombo_11
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 44
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b4c1aa2b6d7241b0800000000000000
+      internalID: -5673834681303186250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: explo_rombo_12
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 0
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cff7f957c63def480800000000000000
+      internalID: -8863414553835241476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: explo_rombo_13
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 16
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19524f8dd2f274760800000000000000
+      internalID: 7441968783212946833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: explo_rombo_14
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 24
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1d5a8fd3d5202b50800000000000000
+      internalID: 6566289848624897307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: explo_rombo_15
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 46
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9190e085b0370430800000000000000
+      internalID: 3749018770918642075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: explo_rombo_16
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 0
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f44cecf3fe8a3bb0800000000000000
+      internalID: -4955491261396269831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: explo_rombo_17
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 20
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86d40d723b9843ce0800000000000000
+      internalID: -1426363779409490584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: explo_rombo_18
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 25
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 421cf6d1474ba6bf0800000000000000
+      internalID: -330253211855240924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: explo_rombo_19
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 47
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a153d724d9a34f820800000000000000
+      internalID: 2951048102934295834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: explo_rombo_20
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 0
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 086ec8dd30ea5f740800000000000000
+      internalID: 5185241877612127872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: explo_rombo_21
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 21
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e08928320614bbdd0800000000000000
+      internalID: -2469308089514158066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: explo_rombo_22
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 25
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0650949fe4b23870800000000000000
+      internalID: 8661183974469555723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: explo_rombo_23
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 48
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebebf7065ec409530800000000000000
+      internalID: 3859669428706721470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: explo_rombo_24
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 0
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eeaac6bf3ce0dcdd0800000000000000
+      internalID: -2464297186202178834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: explo_rombo_25
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 22
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22baf0a7df1680120800000000000000
+      internalID: 2380260144367774498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: explo_rombo_26
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 26
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bbdcf60fcd8310c0800000000000000
+      internalID: -4606182073554904144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: explo_rombo_27
+      rect:
+        serializedVersion: 2
+        x: 573
+        y: 1
+        width: 32
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84b093313a2735830800000000000000
+      internalID: 4058713733918690120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      explo_rombo_0: 7811930919633921657
+      explo_rombo_1: -7041879043694178847
+      explo_rombo_10: 4587871944219141
+      explo_rombo_11: -5673834681303186250
+      explo_rombo_12: -8863414553835241476
+      explo_rombo_13: 7441968783212946833
+      explo_rombo_14: 6566289848624897307
+      explo_rombo_15: 3749018770918642075
+      explo_rombo_16: -4955491261396269831
+      explo_rombo_17: -1426363779409490584
+      explo_rombo_18: -330253211855240924
+      explo_rombo_19: 2951048102934295834
+      explo_rombo_2: 5463037043294960934
+      explo_rombo_20: 5185241877612127872
+      explo_rombo_21: -2469308089514158066
+      explo_rombo_22: 8661183974469555723
+      explo_rombo_23: 3859669428706721470
+      explo_rombo_24: -2464297186202178834
+      explo_rombo_25: 2380260144367774498
+      explo_rombo_26: -4606182073554904144
+      explo_rombo_27: 4058713733918690120
+      explo_rombo_3: -6277680340927061379
+      explo_rombo_4: -5535526901698671246
+      explo_rombo_5: 169858102160616928
+      explo_rombo_6: -5204061315566425071
+      explo_rombo_7: -5543433219372687798
+      explo_rombo_8: -5382618282272545531
+      explo_rombo_9: -4109155942321395509
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

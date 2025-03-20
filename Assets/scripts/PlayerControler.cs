@@ -5,8 +5,9 @@ using UnityEngine;
 
 public class PlayerController : NetworkBehaviour{
     private Vector2 moveInput;
-    public float moveSpeed = 5f; // Speed of player movement
-    [SerializeField] public GameObject signPrefab;
+    private float moveSpeed = 5f; // Speed of player movement
+    [SerializeField] private SpriteRenderer spriteRenderer;
+    [SerializeField] private GameObject signPrefab;
     private Animator animator;
 
     private void Initialize(){
@@ -22,8 +23,8 @@ public class PlayerController : NetworkBehaviour{
         if (!IsOwner || !Application.isFocused) return;
 
         // Get movement input
-        float moveX = Input.GetAxisRaw("Horizontal"); // A (-1) and D (1)
-        float moveY = Input.GetAxisRaw("Vertical");   // W (1) and S (-1)
+        float moveX = Input.GetAxisRaw("Horizontal");  // A (-1) and D (1)
+        float moveY = Input.GetAxisRaw("Vertical");  // W (1) and S (-1)
         moveInput = new Vector2(moveX, moveY).normalized;
         
         // Move the player
@@ -31,13 +32,9 @@ public class PlayerController : NetworkBehaviour{
         transform.position += velocity;
 
         // Flip sprite based on movement direction
-        if (moveX > 0)
+        if (moveX != 0)
         {
-            transform.localScale = new Vector3(1, transform.localScale.y, transform.localScale.z);
-        }
-        else if (moveX < 0)
-        {
-            transform.localScale = new Vector3(-1, transform.localScale.y, transform.localScale.z);
+            RequestFlipServerRpc(moveX < 0); // Send the flip request to the server
         }
 
         // Update animation
@@ -62,5 +59,21 @@ public class PlayerController : NetworkBehaviour{
     {
         GameObject sign = Instantiate(signPrefab, transform.position, Quaternion.identity);
         sign.GetComponent<NetworkObject>().Spawn(); // Spawn it across the network
+    }
+
+
+    [ServerRpc]
+    private void RequestFlipServerRpc(bool flipX)
+    {
+        UpdateFlipClientRpc(flipX);
+    }
+
+    [ClientRpc]
+    private void UpdateFlipClientRpc(bool flipX)
+    {
+        if (spriteRenderer != null)
+        {
+            spriteRenderer.flipX = flipX;
+        }
     }
 }

@@ -10,11 +10,12 @@ using Unity.Netcode.Transports.UTP;
 using Unity.Netcode;
 
 
-public class RelayManager : MonoBehaviour{
+public class UIManager : MonoBehaviour{
     [SerializeField] Button hostButton;
     [SerializeField] Button joinButton;
-    [SerializeField] TMP_InputField joinInput;
     [SerializeField] TextMeshProUGUI codeText;
+    [SerializeField] TMP_InputField joinInput;
+    [SerializeField] public TMP_InputField nameInput;
 
     async void Start(){
         await UnityServices.InitializeAsync();
@@ -24,7 +25,6 @@ public class RelayManager : MonoBehaviour{
     }
 
     async void CreateRelay(){
-        Debug.Log('a');
         Allocation allocation = await RelayService. Instance.CreateAllocationAsync(3);
         string joinCode = await RelayService.Instance.GetJoinCodeAsync(allocation.AllocationId);
         codeText.text = "Code: " + joinCode;

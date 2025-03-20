@@ -8,11 +8,9 @@ public class PlayerController : NetworkBehaviour{
     public float moveSpeed = 5f; // Speed of player movement
     [SerializeField] public GameObject signPrefab;
     private Animator animator;
-    private SpriteRenderer spriteRenderer;
 
     private void Initialize(){
         animator = GetComponent<Animator>();
-        spriteRenderer = GetComponent<SpriteRenderer>();
     }
 
     public override void OnNetworkSpawn(){
@@ -35,11 +33,11 @@ public class PlayerController : NetworkBehaviour{
         // Flip sprite based on movement direction
         if (moveX > 0)
         {
-            spriteRenderer.flipX = false;
+            transform.localScale = new Vector3(1, transform.localScale.y, transform.localScale.z);
         }
         else if (moveX < 0)
         {
-            spriteRenderer.flipX = true;
+            transform.localScale = new Vector3(-1, transform.localScale.y, transform.localScale.z);
         }
 
         // Update animation
